@@ -23,4 +23,6 @@ $.fn.xiala =  function(){
 		})
 		$(document).on("click",function(){
 			$(".list1").stop().animate({height:"0px"},1000)
+			$(".btn1").show()
+			
 		})
